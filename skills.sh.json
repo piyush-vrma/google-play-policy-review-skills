@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Google Play Policy & Compliance",
+      "description": "Pre-submission audits, manifest scans, code remediation, and appeal blueprints across 9 frameworks.",
+      "skills": [
+        "google-play-policy-review"
+      ]
+    }
+  ]
+}
