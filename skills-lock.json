@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "playstore-review": {
+      "source": "devsemih/appstore-review-skill",
+      "sourceType": "github",
+      "skillPath": "skills/playstore-review/SKILL.md",
+      "computedHash": "42ba49b8e5ca189d4a5a34f91832cff86d1967345975170998aa91115132c542"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "computedHash": "7e3c9cd74e9e2b4828527a857170e86310f2dab5ea8030a9043df2c7e6c88857"
+    }
+  }
+}

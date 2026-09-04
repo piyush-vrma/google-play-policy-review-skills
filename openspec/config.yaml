@@ -1,0 +1,68 @@
+schema: spec-driven
+
+# Project Context
+context: |
+  Project: Google Play Store Policy Review & Remediation Master Skill (`google-play-policy-review`)
+  Domain: Google Play Developer Program Policies (2026 Edition and Beyond), Mobile App Compliance Auditing, Pre-submission Verification, Code-level Remediation, Dynamic Rolling Target-SDK Calculations, Self-Updating Reference Baselines, and Appeal Recovery.
+  Target Architecture: Built according to the Anthropic `skill-creator` specification with Progressive Disclosure:
+    - Level 1: YAML Frontmatter with proactive ("pushy") triggers across varied developer prompts.
+    - Level 2: Core `SKILL.md` orchestrator (<500 lines) handling workflow phases (Sync -> Discover -> Audit -> Remediate -> Recover -> Self-Update).
+    - Level 3: Bundled modular references (`references/`), verification scripts (`scripts/`), and benchmarking test cases (`evals/`).
+  Future-Proof & Multi-Year Adaptability:
+    - Dynamic Target SDK Rolling Rule: Calculates target API minimum dynamically based on execution date and Google's rolling 1-year window (not hardcoded to a single year).
+    - Autonomous Policy Sync & Self-Update Protocol: Queries official Google Play portals with dynamically resolved current/upcoming year parameters and updates modular references in-place with timestamped annotations.
+    - Support for 2026, 2027, and future policy cycles.
+  Supported Mobile Ecosystems:
+    - Native Android (Kotlin / Java)
+    - Flutter / Dart
+    - React Native
+    - Expo (Managed & Bare workflows)
+    - Kotlin Multiplatform (KMP - Compose Multiplatform)
+    - .NET MAUI
+    - Cordova / Ionic
+    - Capacitor
+    - Unity
+  Synthesis Sources:
+    - `referenceskills/google-play-policy-guardian-2026`: 2026 policy baseline, web search sync (Phase 0), 180-day appeal hard window, formal Plan of Action (POA), AdMob IAB TCF v2.3 compliance, self-update protocol.
+    - `referenceskills/google-play-policy-remediation`: Principal Android Engineer persona, classification taxonomy (Confirmed violation, Policy risk, Needs Play Console verification, Not applicable), precise file:line citations, non-speculative remediations.
+    - `.agents/skills/playstore-review`: Universal 9-framework detection, merged manifest awareness, digital vs physical goods billing, rating manipulation, families/COPPA checks, top 10 rejections rubric.
+  Policy Realities (2026 & Rolling Rule):
+    - Target SDK: Rolling 1-year rule (API 35 minimum; API 36/37 recommended; rolling forward with Android 17/18).
+    - Permissions: Contact Picker / Location Button requirements (Oct 2026), Photo Picker over broad media access, Accessibility API ban on autonomous AI.
+    - Monetization & Ads: Google Play Billing v7+, AdMob IAB TCF v2.3, interstitial ad <=15s closeable rule, no splash/lockscreen ads.
+    - Account Terminations: 180-day hard deadline for appeals; formal Plan of Action (POA) required; AI identity association detection.
+
+# Per-Artifact Rules
+rules:
+  proposal:
+    - "Clearly identify the unified value proposition over existing fragmented reference skills"
+    - "Explicitly define the progressive disclosure architecture (SKILL.md, references/, scripts/, evals/)"
+    - "Include the future-proof multi-year adaptability and self-updating engine specification"
+    - "Include supported frameworks matrix and multi-ecosystem coverage scope"
+    - "List explicit non-goals (e.g., no unrelated code rewrites, no guarantees of store approval)"
+  specs:
+    - "Define requirements and verification scenarios across: discovery, audit, report, remediation, appeal, and self-update workflows"
+    - "Require dynamic rolling targetSdk calculation based on execution date rather than static hardcoding"
+    - "Require exact classification: Confirmed violation, Policy risk, Needs Play Console verification, Not applicable"
+    - "Require explicit distinction between source code compliance and Play Console declarations"
+  design:
+    - "Document the complete file hierarchy under the master skill directory with future-proof reference names"
+    - "Detail the dynamic multi-year engine and self-update protocol for reference files"
+    - "Specify YAML frontmatter with proactive trigger keywords"
+    - "Detail the report structure and severity levels (Critical, High, Medium, Low)"
+    - "Design modular references for core policy, framework-specific checks, ads/monetization, and recovery workflows"
+  tasks:
+    - "Order tasks logically: scaffolding -> reference doc authoring -> core SKILL.md -> eval suite creation"
+    - "Ensure each task is atomic and independently verifiable"
+
+# Per-Operation Guidance
+operations:
+  apply:
+    guidance:
+      - "Verify all relative markdown links between SKILL.md and references/"
+      - "Validate YAML frontmatter format and ensure description adheres to skill-creator triggering guidelines"
+      - "Ensure self-updating and dynamic multi-year rules are properly implemented in SKILL.md and references"
+  archive:
+    guidance:
+      - "Confirm the master skill is fully functional and ready for agent installation"
+      - "Verify spec synchronization between change delta specs and main specs"
