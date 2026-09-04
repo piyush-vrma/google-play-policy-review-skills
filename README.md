@@ -1,6 +1,6 @@
-# Google Play Policy Review & Remediation Skill
+# 🛡️ Google Play Policy Review Agent Skills
 
-[![skills.sh](https://skills.sh/b/YOUR_GITHUB_USERNAME/GooglePlayPolicyReviewSkills)](https://skills.sh/YOUR_GITHUB_USERNAME/GooglePlayPolicyReviewSkills)
+[![skills.sh](https://skills.sh/b/piyush-vrma/google-play-policy-review-skills)](https://skills.sh/piyush-vrma/google-play-policy-review-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 The production-grade **Google Play Store Policy Review, Pre-Submission Audit, Code Remediation, and Appeal Recovery Skill** for AI coding agents (Claude Code, Antigravity, Cursor, Cline, Codex, and more).
@@ -15,10 +15,10 @@ Install this skill directly into any project or globally using the `skills` CLI:
 
 ```bash
 # Install to current project
-npx skills add https://github.com/YOUR_GITHUB_USERNAME/GooglePlayPolicyReviewSkills --skill google-play-policy-review
+npx skills add https://github.com/piyush-vrma/google-play-policy-review-skills --skill google-play-policy-review
 
 # Or install globally across all supported coding agents
-npx skills add https://github.com/YOUR_GITHUB_USERNAME/GooglePlayPolicyReviewSkills --skill google-play-policy-review -g
+npx skills add https://github.com/piyush-vrma/google-play-policy-review-skills --skill google-play-policy-review -g
 ```
 
 ---
