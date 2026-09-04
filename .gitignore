@@ -15,7 +15,7 @@ logs/
 .cline/
 .clinerules/
 .kiro/
-.agents/skills/google-play-policy-review/
+.agents/
 
 # Node & Dependencies
 node_modules/
